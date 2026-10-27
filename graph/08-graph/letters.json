@@ -1,0 +1,488 @@
+[
+ {
+  "letter": "А",
+  "vertices_raw": 39,
+  "edges_raw": 335,
+  "vertices_clean-default-chunks": 50,
+  "edges_clean-default-chunks": 289,
+  "vertices_clean": 55,
+  "edges_clean": 360
+ },
+ {
+  "letter": "Б",
+  "vertices_raw": 39,
+  "edges_raw": 307,
+  "vertices_clean-default-chunks": 41,
+  "edges_clean-default-chunks": 289,
+  "vertices_clean": 52,
+  "edges_clean": 329
+ },
+ {
+  "letter": "В",
+  "vertices_raw": 130,
+  "edges_raw": 649,
+  "vertices_clean-default-chunks": 186,
+  "edges_clean-default-chunks": 641,
+  "vertices_clean": 177,
+  "edges_clean": 810
+ },
+ {
+  "letter": "Г",
+  "vertices_raw": 154,
+  "edges_raw": 542,
+  "vertices_clean-default-chunks": 145,
+  "edges_clean-default-chunks": 391,
+  "vertices_clean": 158,
+  "edges_clean": 603
+ },
+ {
+  "letter": "Д",
+  "vertices_raw": 157,
+  "edges_raw": 495,
+  "vertices_clean-default-chunks": 168,
+  "edges_clean-default-chunks": 521,
+  "vertices_clean": 195,
+  "edges_clean": 726
+ },
+ {
+  "letter": "Е",
+  "vertices_raw": 0,
+  "edges_raw": 0,
+  "vertices_clean-default-chunks": 1,
+  "edges_clean-default-chunks": 3,
+  "vertices_clean": 5,
+  "edges_clean": 12
+ },
+ {
+  "letter": "Ж",
+  "vertices_raw": 7,
+  "edges_raw": 20,
+  "vertices_clean-default-chunks": 8,
+  "edges_clean-default-chunks": 20,
+  "vertices_clean": 8,
+  "edges_clean": 51
+ },
+ {
+  "letter": "З",
+  "vertices_raw": 58,
+  "edges_raw": 306,
+  "vertices_clean-default-chunks": 65,
+  "edges_clean-default-chunks": 242,
+  "vertices_clean": 80,
+  "edges_clean": 384
+ },
+ {
+  "letter": "И",
+  "vertices_raw": 104,
+  "edges_raw": 533,
+  "vertices_clean-default-chunks": 105,
+  "edges_clean-default-chunks": 412,
+  "vertices_clean": 102,
+  "edges_clean": 611
+ },
+ {
+  "letter": "К",
+  "vertices_raw": 201,
+  "edges_raw": 675,
+  "vertices_clean-default-chunks": 231,
+  "edges_clean-default-chunks": 568,
+  "vertices_clean": 275,
+  "edges_clean": 853
+ },
+ {
+  "letter": "Л",
+  "vertices_raw": 57,
+  "edges_raw": 209,
+  "vertices_clean-default-chunks": 52,
+  "edges_clean-default-chunks": 159,
+  "vertices_clean": 60,
+  "edges_clean": 287
+ },
+ {
+  "letter": "М",
+  "vertices_raw": 214,
+  "edges_raw": 942,
+  "vertices_clean-default-chunks": 222,
+  "edges_clean-default-chunks": 851,
+  "vertices_clean": 269,
+  "edges_clean": 1212
+ },
+ {
+  "letter": "Н",
+  "vertices_raw": 149,
+  "edges_raw": 776,
+  "vertices_clean-default-chunks": 153,
+  "edges_clean-default-chunks": 625,
+  "vertices_clean": 180,
+  "edges_clean": 904
+ },
+ {
+  "letter": "О",
+  "vertices_raw": 241,
+  "edges_raw": 679,
+  "vertices_clean-default-chunks": 209,
+  "edges_clean-default-chunks": 521,
+  "vertices_clean": 278,
+  "edges_clean": 772
+ },
+ {
+  "letter": "П",
+  "vertices_raw": 477,
+  "edges_raw": 1543,
+  "vertices_clean-default-chunks": 513,
+  "edges_clean-default-chunks": 1492,
+  "vertices_clean": 547,
+  "edges_clean": 2125
+ },
+ {
+  "letter": "Р",
+  "vertices_raw": 335,
+  "edges_raw": 977,
+  "vertices_clean-default-chunks": 283,
+  "edges_clean-default-chunks": 766,
+  "vertices_clean": 311,
+  "edges_clean": 1080
+ },
+ {
+  "letter": "С",
+  "vertices_raw": 697,
+  "edges_raw": 2721,
+  "vertices_clean-default-chunks": 670,
+  "edges_clean-default-chunks": 2569,
+  "vertices_clean": 698,
+  "edges_clean": 3779
+ },
+ {
+  "letter": "Т",
+  "vertices_raw": 360,
+  "edges_raw": 1220,
+  "vertices_clean-default-chunks": 359,
+  "edges_clean-default-chunks": 1141,
+  "vertices_clean": 395,
+  "edges_clean": 1530
+ },
+ {
+  "letter": "У",
+  "vertices_raw": 109,
+  "edges_raw": 760,
+  "vertices_clean-default-chunks": 120,
+  "edges_clean-default-chunks": 689,
+  "vertices_clean": 124,
+  "edges_clean": 964
+ },
+ {
+  "letter": "Ф",
+  "vertices_raw": 78,
+  "edges_raw": 449,
+  "vertices_clean-default-chunks": 69,
+  "edges_clean-default-chunks": 396,
+  "vertices_clean": 84,
+  "edges_clean": 508
+ },
+ {
+  "letter": "Х",
+  "vertices_raw": 27,
+  "edges_raw": 227,
+  "vertices_clean-default-chunks": 30,
+  "edges_clean-default-chunks": 220,
+  "vertices_clean": 35,
+  "edges_clean": 308
+ },
+ {
+  "letter": "Ц",
+  "vertices_raw": 16,
+  "edges_raw": 68,
+  "vertices_clean-default-chunks": 23,
+  "edges_clean-default-chunks": 58,
+  "vertices_clean": 20,
+  "edges_clean": 98
+ },
+ {
+  "letter": "Ч",
+  "vertices_raw": 27,
+  "edges_raw": 135,
+  "vertices_clean-default-chunks": 29,
+  "edges_clean-default-chunks": 90,
+  "vertices_clean": 33,
+  "edges_clean": 187
+ },
+ {
+  "letter": "Ш",
+  "vertices_raw": 14,
+  "edges_raw": 39,
+  "vertices_clean-default-chunks": 14,
+  "edges_clean-default-chunks": 36,
+  "vertices_clean": 23,
+  "edges_clean": 52
+ },
+ {
+  "letter": "Э",
+  "vertices_raw": 62,
+  "edges_raw": 128,
+  "vertices_clean-default-chunks": 69,
+  "edges_clean-default-chunks": 115,
+  "vertices_clean": 102,
+  "edges_clean": 227
+ },
+ {
+  "letter": "Ю",
+  "vertices_raw": 2,
+  "edges_raw": 2,
+  "vertices_clean-default-chunks": 1,
+  "edges_clean-default-chunks": 1,
+  "vertices_clean": 1,
+  "edges_clean": 1
+ },
+ {
+  "letter": "Я",
+  "vertices_raw": 6,
+  "edges_raw": 15,
+  "vertices_clean-default-chunks": 4,
+  "edges_clean-default-chunks": 3,
+  "vertices_clean": 5,
+  "edges_clean": 13
+ },
+ {
+  "letter": "A",
+  "vertices_raw": 23,
+  "edges_raw": 85,
+  "vertices_clean-default-chunks": 17,
+  "edges_clean-default-chunks": 42,
+  "vertices_clean": 20,
+  "edges_clean": 91
+ },
+ {
+  "letter": "B",
+  "vertices_raw": 6,
+  "edges_raw": 7,
+  "vertices_clean-default-chunks": 3,
+  "edges_clean-default-chunks": 19,
+  "vertices_clean": 11,
+  "edges_clean": 39
+ },
+ {
+  "letter": "C",
+  "vertices_raw": 30,
+  "edges_raw": 78,
+  "vertices_clean-default-chunks": 15,
+  "edges_clean-default-chunks": 40,
+  "vertices_clean": 21,
+  "edges_clean": 95
+ },
+ {
+  "letter": "D",
+  "vertices_raw": 14,
+  "edges_raw": 79,
+  "vertices_clean-default-chunks": 6,
+  "edges_clean-default-chunks": 30,
+  "vertices_clean": 19,
+  "edges_clean": 57
+ },
+ {
+  "letter": "E",
+  "vertices_raw": 17,
+  "edges_raw": 38,
+  "vertices_clean-default-chunks": 15,
+  "edges_clean-default-chunks": 24,
+  "vertices_clean": 16,
+  "edges_clean": 26
+ },
+ {
+  "letter": "F",
+  "vertices_raw": 11,
+  "edges_raw": 22,
+  "vertices_clean-default-chunks": 4,
+  "edges_clean-default-chunks": 5,
+  "vertices_clean": 9,
+  "edges_clean": 12
+ },
+ {
+  "letter": "G",
+  "vertices_raw": 3,
+  "edges_raw": 4,
+  "vertices_clean-default-chunks": 3,
+  "edges_clean-default-chunks": 4,
+  "vertices_clean": 7,
+  "edges_clean": 11
+ },
+ {
+  "letter": "H",
+  "vertices_raw": 10,
+  "edges_raw": 36,
+  "vertices_clean-default-chunks": 7,
+  "edges_clean-default-chunks": 36,
+  "vertices_clean": 11,
+  "edges_clean": 46
+ },
+ {
+  "letter": "I",
+  "vertices_raw": 7,
+  "edges_raw": 49,
+  "vertices_clean-default-chunks": 8,
+  "edges_clean-default-chunks": 37,
+  "vertices_clean": 7,
+  "edges_clean": 59
+ },
+ {
+  "letter": "J",
+  "vertices_raw": 4,
+  "edges_raw": 10,
+  "vertices_clean-default-chunks": 4,
+  "edges_clean-default-chunks": 6,
+  "vertices_clean": 4,
+  "edges_clean": 12
+ },
+ {
+  "letter": "K",
+  "vertices_raw": 27,
+  "edges_raw": 123,
+  "vertices_clean-default-chunks": 31,
+  "edges_clean-default-chunks": 102,
+  "vertices_clean": 30,
+  "edges_clean": 125
+ },
+ {
+  "letter": "L",
+  "vertices_raw": 2,
+  "edges_raw": 3,
+  "vertices_clean-default-chunks": 3,
+  "edges_clean-default-chunks": 4,
+  "vertices_clean": 0,
+  "edges_clean": 0
+ },
+ {
+  "letter": "M",
+  "vertices_raw": 16,
+  "edges_raw": 59,
+  "vertices_clean-default-chunks": 11,
+  "edges_clean-default-chunks": 47,
+  "vertices_clean": 15,
+  "edges_clean": 93
+ },
+ {
+  "letter": "N",
+  "vertices_raw": 25,
+  "edges_raw": 105,
+  "vertices_clean-default-chunks": 21,
+  "edges_clean-default-chunks": 73,
+  "vertices_clean": 23,
+  "edges_clean": 147
+ },
+ {
+  "letter": "O",
+  "vertices_raw": 0,
+  "edges_raw": 0,
+  "vertices_clean-default-chunks": 0,
+  "edges_clean-default-chunks": 0,
+  "vertices_clean": 1,
+  "edges_clean": 1
+ },
+ {
+  "letter": "P",
+  "vertices_raw": 8,
+  "edges_raw": 20,
+  "vertices_clean-default-chunks": 8,
+  "edges_clean-default-chunks": 22,
+  "vertices_clean": 11,
+  "edges_clean": 28
+ },
+ {
+  "letter": "Q",
+  "vertices_raw": 2,
+  "edges_raw": 4,
+  "vertices_clean-default-chunks": 2,
+  "edges_clean-default-chunks": 1,
+  "vertices_clean": 1,
+  "edges_clean": 0
+ },
+ {
+  "letter": "R",
+  "vertices_raw": 5,
+  "edges_raw": 7,
+  "vertices_clean-default-chunks": 4,
+  "edges_clean-default-chunks": 4,
+  "vertices_clean": 7,
+  "edges_clean": 14
+ },
+ {
+  "letter": "S",
+  "vertices_raw": 28,
+  "edges_raw": 94,
+  "vertices_clean-default-chunks": 27,
+  "edges_clean-default-chunks": 72,
+  "vertices_clean": 31,
+  "edges_clean": 146
+ },
+ {
+  "letter": "T",
+  "vertices_raw": 82,
+  "edges_raw": 255,
+  "vertices_clean-default-chunks": 43,
+  "edges_clean-default-chunks": 173,
+  "vertices_clean": 62,
+  "edges_clean": 271
+ },
+ {
+  "letter": "U",
+  "vertices_raw": 3,
+  "edges_raw": 4,
+  "vertices_clean-default-chunks": 4,
+  "edges_clean-default-chunks": 5,
+  "vertices_clean": 4,
+  "edges_clean": 5
+ },
+ {
+  "letter": "V",
+  "vertices_raw": 25,
+  "edges_raw": 79,
+  "vertices_clean-default-chunks": 19,
+  "edges_clean-default-chunks": 56,
+  "vertices_clean": 27,
+  "edges_clean": 97
+ },
+ {
+  "letter": "W",
+  "vertices_raw": 1,
+  "edges_raw": 2,
+  "vertices_clean-default-chunks": 2,
+  "edges_clean-default-chunks": 2,
+  "vertices_clean": 2,
+  "edges_clean": 2
+ },
+ {
+  "letter": "X",
+  "vertices_raw": 6,
+  "edges_raw": 51,
+  "vertices_clean-default-chunks": 8,
+  "edges_clean-default-chunks": 110,
+  "vertices_clean": 10,
+  "edges_clean": 64
+ },
+ {
+  "letter": "Z",
+  "vertices_raw": 4,
+  "edges_raw": 13,
+  "vertices_clean-default-chunks": 3,
+  "edges_clean-default-chunks": 18,
+  "vertices_clean": 5,
+  "edges_clean": 26
+ },
+ {
+  "letter": "цифра",
+  "vertices_raw": 101,
+  "edges_raw": 358,
+  "vertices_clean-default-chunks": 60,
+  "edges_clean-default-chunks": 191,
+  "vertices_clean": 99,
+  "edges_clean": 324
+ },
+ {
+  "letter": "другое",
+  "vertices_raw": 52,
+  "edges_raw": 114,
+  "vertices_clean-default-chunks": 48,
+  "edges_clean-default-chunks": 121,
+  "vertices_clean": 51,
+  "edges_clean": 180
+ }
+]

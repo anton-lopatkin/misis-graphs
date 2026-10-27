@@ -1,0 +1,206 @@
+{
+  "efron": {
+    "chunks": 196,
+    "sentences": 4074,
+    "tokens": 96581,
+    "protected": {
+      "formula": {
+        "found": 101,
+        "whole_tokens": 101,
+        "split_without_protection": 101
+      },
+      "number_with_unit": {
+        "found": 1332,
+        "whole_tokens": 1332,
+        "split_without_protection": 1332
+      },
+      "steel_grade": {
+        "found": 395,
+        "whole_tokens": 395,
+        "split_without_protection": 395
+      },
+      "compound": {
+        "found": 20,
+        "whole_tokens": 20,
+        "split_without_protection": 20
+      },
+      "phase": {
+        "found": 111,
+        "whole_tokens": 111,
+        "split_without_protection": 105
+      },
+      "designation": {
+        "found": 774,
+        "whole_tokens": 774,
+        "split_without_protection": 21
+      },
+      "number": {
+        "found": 2507,
+        "whole_tokens": 2507,
+        "split_without_protection": 5
+      }
+    },
+    "out_of_vocabulary": {
+      "count": 3336,
+      "total": 73618,
+      "share": 0.045
+    },
+    "abbreviations": {
+      "found": 381,
+      "split": 0
+    }
+  },
+  "odesskii": {
+    "chunks": 64,
+    "sentences": 1341,
+    "tokens": 31632,
+    "protected": {
+      "formula": {
+        "found": 31,
+        "whole_tokens": 31,
+        "split_without_protection": 31
+      },
+      "number_with_unit": {
+        "found": 628,
+        "whole_tokens": 628,
+        "split_without_protection": 628
+      },
+      "steel_grade": {
+        "found": 168,
+        "whole_tokens": 168,
+        "split_without_protection": 168
+      },
+      "compound": {
+        "found": 5,
+        "whole_tokens": 5,
+        "split_without_protection": 5
+      },
+      "phase": {
+        "found": 17,
+        "whole_tokens": 17,
+        "split_without_protection": 1
+      },
+      "designation": {
+        "found": 425,
+        "whole_tokens": 425,
+        "split_without_protection": 12
+      },
+      "number": {
+        "found": 902,
+        "whole_tokens": 902,
+        "split_without_protection": 4
+      }
+    },
+    "out_of_vocabulary": {
+      "count": 1171,
+      "total": 23340,
+      "share": 0.05
+    },
+    "abbreviations": {
+      "found": 110,
+      "split": 0
+    }
+  },
+  "vocabulary": {
+    "tokens": 7890,
+    "abbreviations": 118
+  },
+  "checks": [
+    {
+      "metric": "efron.formula.whole",
+      "value": 101,
+      "threshold": "== 101",
+      "passed": true
+    },
+    {
+      "metric": "efron.number_with_unit.whole",
+      "value": 1332,
+      "threshold": "== 1332",
+      "passed": true
+    },
+    {
+      "metric": "efron.steel_grade.whole",
+      "value": 395,
+      "threshold": "== 395",
+      "passed": true
+    },
+    {
+      "metric": "efron.compound.whole",
+      "value": 20,
+      "threshold": "== 20",
+      "passed": true
+    },
+    {
+      "metric": "efron.phase.whole",
+      "value": 111,
+      "threshold": "== 111",
+      "passed": true
+    },
+    {
+      "metric": "efron.designation.whole",
+      "value": 774,
+      "threshold": "== 774",
+      "passed": true
+    },
+    {
+      "metric": "efron.number.whole",
+      "value": 2507,
+      "threshold": "== 2507",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.formula.whole",
+      "value": 31,
+      "threshold": "== 31",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.number_with_unit.whole",
+      "value": 628,
+      "threshold": "== 628",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.steel_grade.whole",
+      "value": 168,
+      "threshold": "== 168",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.compound.whole",
+      "value": 5,
+      "threshold": "== 5",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.phase.whole",
+      "value": 17,
+      "threshold": "== 17",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.designation.whole",
+      "value": 425,
+      "threshold": "== 425",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.number.whole",
+      "value": 902,
+      "threshold": "== 902",
+      "passed": true
+    },
+    {
+      "metric": "efron.abbreviations.split",
+      "value": 0,
+      "threshold": "<= 0",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.abbreviations.split",
+      "value": 0,
+      "threshold": "<= 0",
+      "passed": true
+    }
+  ]
+}

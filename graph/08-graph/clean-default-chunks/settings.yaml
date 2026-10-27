@@ -1,0 +1,54 @@
+completion_models:
+  default_completion_model:
+    model_provider: openrouter
+    model: qwen/qwen3-235b-a22b-2507
+    call_args:
+      max_tokens: 16384
+      temperature: 0
+      seed: 42
+      timeout: 300
+      extra_body:
+        provider:
+          order: [deepinfra]
+          allow_fallbacks: false
+    api_key: ${GRAPHRAG_API_KEY}
+    retry: &retry
+      type: exponential_backoff
+      max_retries: 12
+      base_delay: 1.1
+      max_delay: 10
+      jitter: true
+    rate_limit:
+      type: sliding_window
+      period_in_seconds: 60
+      requests_per_period: 120
+
+embedding_models:
+  default_embedding_model:
+    model_provider: openrouter
+    model: openai/text-embedding-3-large
+    api_key: ${GRAPHRAG_API_KEY}
+    retry: *retry
+    rate_limit:
+      type: sliding_window
+      period_in_seconds: 60
+      requests_per_period: 600
+
+chunking:
+  type: tokens
+  size: 1200
+  overlap: 100
+  encoding_model: o200k_base
+
+extract_graph:
+  prompt: ../prompts/extract_graph.txt
+  entity_types: [сталь, элемент, фаза, структура, свойство, режим, обработка, превращение, испытание, изделие, оборудование, стандарт, дефект]
+
+summarize_descriptions:
+  prompt: ../prompts/summarize_descriptions.txt
+
+embed_text:
+  names: [entity_description]
+
+snapshots:
+  raw_graph: true

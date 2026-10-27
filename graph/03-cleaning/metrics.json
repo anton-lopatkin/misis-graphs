@@ -1,0 +1,101 @@
+{
+  "gold": {
+    "fragments": 40,
+    "cer": {
+      "before": 0.0314,
+      "after": 0.0012,
+      "reduction": 0.962
+    },
+    "wer": {
+      "before": 0.0563,
+      "after": 0.0046
+    },
+    "fragments_worse": 0,
+    "edits": {
+      "made": 79,
+      "needed": 103,
+      "right": 79
+    },
+    "precision": 1.0,
+    "recall": 0.767,
+    "f05": 0.943
+  },
+  "efron": {
+    "preservation": {
+      "numbers": {
+        "before": 5211,
+        "after": 2696,
+        "removed_with_noise": 2517
+      },
+      "numbers_with_units": {
+        "before": 981,
+        "after": 928,
+        "removed_with_noise": 53
+      },
+      "formulas": {
+        "before": 840,
+        "after": 782,
+        "removed_with_noise": 58
+      },
+      "tables": {
+        "before": 32,
+        "after": 32,
+        "removed_with_noise": 0
+      },
+      "images_removed": 402
+    },
+    "unknown_word_share": {
+      "before": 0.0375,
+      "after": 0.0357
+    }
+  },
+  "odesskii": {
+    "preservation": {
+      "numbers": {
+        "before": 1491,
+        "after": 1032,
+        "removed_with_noise": 461
+      },
+      "numbers_with_units": {
+        "before": 358,
+        "after": 351,
+        "removed_with_noise": 8
+      },
+      "formulas": {
+        "before": 340,
+        "after": 319,
+        "removed_with_noise": 21
+      },
+      "tables": {
+        "before": 20,
+        "after": 20,
+        "removed_with_noise": 0
+      },
+      "images_removed": 54
+    },
+    "unknown_word_share": {
+      "before": 0.0387,
+      "after": 0.0376
+    }
+  },
+  "checks": [
+    {
+      "metric": "gold.precision",
+      "value": 1.0,
+      "threshold": ">= 0.75",
+      "passed": true
+    },
+    {
+      "metric": "gold.recall",
+      "value": 0.767,
+      "threshold": ">= 0.75",
+      "passed": true
+    },
+    {
+      "metric": "gold.f05",
+      "value": 0.943,
+      "threshold": ">= 0.75",
+      "passed": true
+    }
+  ]
+}

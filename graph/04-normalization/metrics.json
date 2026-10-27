@@ -1,0 +1,198 @@
+{
+  "uniformity": {
+    "stress unit": {
+      "before": {
+        "Н/мм²": 150,
+        "H/mm^{N}": 28,
+        "МПа": 22,
+        "H/mm": 14,
+        "H/MM^{N}": 8,
+        "Н/мм": 2,
+        "H/MM": 2
+      },
+      "after": {
+        "МПа": 283
+      },
+      "canonical_share": 1.0
+    },
+    "degree Celsius": {
+      "before": {
+        "°C": 395,
+        "^{\\circ}C": 41,
+        "^{\\circ}\\mathrm{C}": 22,
+        "°С": 4,
+        "^{\\circ}\\mathrm {C}": 1
+      },
+      "after": {
+        "°C": 508
+      },
+      "canonical_share": 1.0
+    },
+    "minus sign": {
+      "before": {
+        "-": 92,
+        "–": 30,
+        "−": 8
+      },
+      "after": {
+        "−": 179
+      },
+      "canonical_share": 1.0
+    },
+    "range with unit": {
+      "before": {
+        "N–N": 274,
+        "N-N": 2
+      },
+      "after": {
+        "N–N": 357
+      },
+      "canonical_share": 1.0
+    },
+    "percent": {
+      "before": {
+        "N%": 354,
+        "N %": 161
+      },
+      "after": {
+        "N %": 586
+      },
+      "canonical_share": 1.0
+    },
+    "yield strength σт": {
+      "before": {
+        "\\sigma_{\\mathrm{T}}": 34,
+        "\\sigma_{T}": 32,
+        "\\sigma_{T} ": 13,
+        "\\sigma_{\\text{T}}": 5,
+        "\\sigma_{\\mathrm{т}}": 5,
+        "\\sigma_{\\mathrm {T}}": 3,
+        "\\sigma_{\\mathrm {т}}": 3,
+        "σ_T": 1,
+        "\\sigma_{\\mathrm{T ": 1,
+        "\\sigma_{T}}": 1
+      },
+      "after": {
+        "σ_т": 112
+      },
+      "canonical_share": 1.0
+    },
+    "tensile strength σв": {
+      "before": {
+        "\\sigma_{B}": 31,
+        "\\sigma_{\\mathrm{B}}": 27,
+        "\\sigma_{B} ": 6,
+        "\\sigma_{\\text{в}}": 5,
+        "\\sigma_{\\mathrm {B}}": 4,
+        "\\sigma_{B": 1,
+        "σ_B": 1,
+        "\\sigma_{\\mathrm{B ": 1
+      },
+      "after": {
+        "σ_в": 77
+      },
+      "canonical_share": 1.0
+    },
+    "γ→α transformation": {
+      "before": {
+        "\\gamma - \\alpha": 21,
+        "γ – α": 11,
+        "γ→α": 8,
+        "\\gamma\\rightarrow\\alpha": 4,
+        "\\gamma \\rightarrow \\alpha": 3,
+        "\\gamma \\to \\alpha": 1
+      },
+      "after": {
+        "γ→α": 47
+      },
+      "canonical_share": 1.0
+    }
+  },
+  "abbreviations": {
+    "before": 396,
+    "after_in_lemmas": 0,
+    "left_in_compounds": 13
+  },
+  "efron": {
+    "formulas": {
+      "inline_before": 714,
+      "inline_left_as_latex": 2,
+      "block_kept": 68
+    },
+    "tables": {
+      "to_markdown": 32,
+      "cell_formulas_left_as_latex": 2,
+      "cells_typed_as_numbers": 888,
+      "numeric_cells_unparsed": 0
+    }
+  },
+  "odesskii": {
+    "formulas": {
+      "inline_before": 293,
+      "inline_left_as_latex": 0,
+      "block_kept": 26
+    },
+    "tables": {
+      "to_markdown": 20,
+      "cell_formulas_left_as_latex": 0,
+      "cells_typed_as_numbers": 348,
+      "numeric_cells_unparsed": 0
+    }
+  },
+  "checks": [
+    {
+      "metric": "uniformity.stress unit.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.degree Celsius.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.minus sign.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.range with unit.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.percent.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.yield strength σт.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.tensile strength σв.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "uniformity.γ→α transformation.forms_after",
+      "value": 1,
+      "threshold": "== 1",
+      "passed": true
+    },
+    {
+      "metric": "abbreviations.after_in_lemmas",
+      "value": 0,
+      "threshold": "== 0",
+      "passed": true
+    }
+  ]
+}

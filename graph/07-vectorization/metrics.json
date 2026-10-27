@@ -1,0 +1,63 @@
+{
+  "questions": 100,
+  "retrieval": {
+    "strict": {
+      "hit_rate_at_10": 0.96,
+      "mrr_at_10": 0.754,
+      "ndcg_at_10": 0.805
+    },
+    "with_neighbours": {
+      "hit_rate_at_10": 0.98,
+      "mrr_at_10": 0.86,
+      "ndcg_at_10": 0.889
+    },
+    "cosine_similarity": {
+      "question_and_its_chunk": 0.158,
+      "question_and_other_chunks": 0.043
+    }
+  },
+  "dimensionality": {
+    "documents": 2671,
+    "features": 53847,
+    "non_zero_share": 0.00111,
+    "pca_components_for_90_percent": 1081
+  },
+  "checks": [
+    {
+      "metric": "strict.hit_rate_at_10",
+      "value": 0.96,
+      "threshold": "> 0.9",
+      "passed": true
+    },
+    {
+      "metric": "with_neighbours.hit_rate_at_10",
+      "value": 0.98,
+      "threshold": "> 0.9",
+      "passed": true
+    },
+    {
+      "metric": "strict.mrr_at_10",
+      "value": 0.754,
+      "threshold": ">= 0.75",
+      "passed": true
+    },
+    {
+      "metric": "strict.ndcg_at_10",
+      "value": 0.805,
+      "threshold": ">= 0.75",
+      "passed": true
+    },
+    {
+      "metric": "with_neighbours.mrr_at_10",
+      "value": 0.86,
+      "threshold": ">= 0.75",
+      "passed": true
+    },
+    {
+      "metric": "with_neighbours.ndcg_at_10",
+      "value": 0.889,
+      "threshold": ">= 0.75",
+      "passed": true
+    }
+  ]
+}

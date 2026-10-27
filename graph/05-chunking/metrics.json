@@ -1,0 +1,228 @@
+{
+  "efron": {
+    "graphrag_on_raw": {
+      "chunks": 160,
+      "tokens_mean": 1197,
+      "tokens_std": 42,
+      "tokens_min": 670,
+      "tokens_max": 1200,
+      "overlap_share": 0.083,
+      "sentences": {
+        "count": 8,
+        "total": 5194,
+        "share": 0.0015
+      },
+      "paragraphs": {
+        "count": 53,
+        "total": 2379,
+        "share": 0.0223
+      },
+      "formulas": {
+        "count": 0,
+        "total": 859,
+        "share": 0.0
+      },
+      "tables": {
+        "count": 7,
+        "total": 32,
+        "share": 0.2188
+      }
+    },
+    "recursive_on_lemmas": {
+      "chunks": 196,
+      "tokens_mean": 911,
+      "tokens_std": 83,
+      "tokens_min": 595,
+      "tokens_max": 1018,
+      "overlap_share": 0.151,
+      "sentences": {
+        "count": 0,
+        "total": 3532,
+        "share": 0.0
+      },
+      "paragraphs": {
+        "count": 0,
+        "total": 1474,
+        "share": 0.0
+      },
+      "formulas": {
+        "count": 0,
+        "total": 70,
+        "share": 0.0
+      },
+      "tables": {
+        "count": 0,
+        "total": 32,
+        "share": 0.0
+      }
+    }
+  },
+  "odesskii": {
+    "graphrag_on_raw": {
+      "chunks": 51,
+      "tokens_mean": 1193,
+      "tokens_std": 52,
+      "tokens_min": 822,
+      "tokens_max": 1200,
+      "overlap_share": 0.083,
+      "sentences": {
+        "count": 5,
+        "total": 1414,
+        "share": 0.0035
+      },
+      "paragraphs": {
+        "count": 13,
+        "total": 630,
+        "share": 0.0206
+      },
+      "formulas": {
+        "count": 0,
+        "total": 372,
+        "share": 0.0
+      },
+      "tables": {
+        "count": 3,
+        "total": 20,
+        "share": 0.15
+      }
+    },
+    "recursive_on_lemmas": {
+      "chunks": 64,
+      "tokens_mean": 942,
+      "tokens_std": 57,
+      "tokens_min": 768,
+      "tokens_max": 1012,
+      "overlap_share": 0.17,
+      "sentences": {
+        "count": 0,
+        "total": 1141,
+        "share": 0.0
+      },
+      "paragraphs": {
+        "count": 0,
+        "total": 515,
+        "share": 0.0
+      },
+      "formulas": {
+        "count": 0,
+        "total": 26,
+        "share": 0.0
+      },
+      "tables": {
+        "count": 0,
+        "total": 20,
+        "share": 0.0
+      }
+    }
+  },
+  "checks": [
+    {
+      "metric": "efron.tokens_mean",
+      "value": 911,
+      "threshold": ">= 512",
+      "passed": true
+    },
+    {
+      "metric": "efron.tokens_max",
+      "value": 1018,
+      "threshold": "<= 1024",
+      "passed": true
+    },
+    {
+      "metric": "efron.tokens_std",
+      "value": 83,
+      "threshold": "<= 200",
+      "passed": true
+    },
+    {
+      "metric": "efron.overlap_share",
+      "value": 0.151,
+      "threshold": ">= 0.1",
+      "passed": true
+    },
+    {
+      "metric": "efron.overlap_share",
+      "value": 0.151,
+      "threshold": "<= 0.2",
+      "passed": true
+    },
+    {
+      "metric": "efron.sentences.share",
+      "value": 0.0,
+      "threshold": "<= 0.05",
+      "passed": true
+    },
+    {
+      "metric": "efron.paragraphs.share",
+      "value": 0.0,
+      "threshold": "<= 0.02",
+      "passed": true
+    },
+    {
+      "metric": "efron.formulas.count",
+      "value": 0,
+      "threshold": "== 0",
+      "passed": true
+    },
+    {
+      "metric": "efron.tables.count",
+      "value": 0,
+      "threshold": "== 0",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.tokens_mean",
+      "value": 942,
+      "threshold": ">= 512",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.tokens_max",
+      "value": 1012,
+      "threshold": "<= 1024",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.tokens_std",
+      "value": 57,
+      "threshold": "<= 200",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.overlap_share",
+      "value": 0.17,
+      "threshold": ">= 0.1",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.overlap_share",
+      "value": 0.17,
+      "threshold": "<= 0.2",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.sentences.share",
+      "value": 0.0,
+      "threshold": "<= 0.05",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.paragraphs.share",
+      "value": 0.0,
+      "threshold": "<= 0.02",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.formulas.count",
+      "value": 0,
+      "threshold": "== 0",
+      "passed": true
+    },
+    {
+      "metric": "odesskii.tables.count",
+      "value": 0,
+      "threshold": "== 0",
+      "passed": true
+    }
+  ]
+}
